@@ -52,13 +52,9 @@ The analysis follows these key steps:
 ## Repository Structure
 
 ```
-├── notebook/
-│   └── colon_cancer_gene_expression_analysis.ipynb   # Main analysis notebook
-├── paper/
-│   └── scientific_paper.pdf                          # Scientific paper detailing the methodology and findings
-├── data/
-│   └── colon_cancer_gene_expression.csv              # Dataset (not included - download from Kaggle)
-├── LICENSE
+├── colon_cancer_gene_expression_analysis.ipynb   # Main analysis notebook
+├── scientific_paper.pdf                          # Scientific paper detailing the methodology and findings
+├── colon_cancer.csv              # Dataset (not included - download from Kaggle)
 └── README.md
 ```
 
@@ -79,8 +75,7 @@ The repository includes comprehensive analysis highlighting:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/your-username/colon-cancer-gene-expression-analysis.git
-cd colon-cancer-gene-expression-analysis
+git clone https://github.com/Laaliji/Colon-Cancer-Gene-Expression-Data-Classification-Analysis.git
 ```
 
 2. Create and activate a virtual environment (optional but recommended):
